@@ -675,7 +675,8 @@ html {
 
 @media(max-width: 767px) {
     .reviews-lp .content-reviews .item {
-        padding: 8px
+        padding: 8px;
+        width: 200px;
     }
     .reviews-lp .content-reviews .item .location div {
         display: none
@@ -694,7 +695,11 @@ html {
 
 @media(max-width: 767px) {
     .reviews-lp .content-reviews .item h3 {
-        font-size: 16px
+        font-size: 16px;
+        -webkit-box-orient: vertical;
+        width: 100%;
+        text-align: left;
+        overflow: hidden;
     }
 }
 
@@ -711,7 +716,11 @@ html {
 
 @media(max-width: 767px) {
     .reviews-lp .content-reviews .item p {
-        font-size: 12px
+        font-size: 12px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
     }
 }
 
@@ -732,7 +741,8 @@ html {
 
 @media(max-width: 767px) {
     .reviews-lp .content-reviews .item .content-head {
-        font-size: 16px
+        font-size: 16px;
+        overflow: hidden;
     }
 }
 
