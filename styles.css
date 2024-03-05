@@ -565,7 +565,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin:  80px auto 0;
+  margin: 80px auto 0;
   width: -moz-fit-content;
   width: fit-content;
   padding: 20px 55px;
@@ -576,6 +576,12 @@ html {
     font-size: 16px;
     padding: 11px 55px;
   }
+}
+
+.reviews-lp .content-info {
+  max-width: 1440px;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .reviews-lp .content-info h3 {
@@ -668,6 +674,8 @@ html {
   position: relative;
 }
 
+
+
 .reviews-lp .swiper-button-prev,
 .reviews-lp .swiper-button-next {
   --space: -40px;
@@ -687,6 +695,13 @@ html {
 
 .reviews-lp .swiper-button-next {
   right: var(--space);
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews-lp .swiper-button-prev,
+  .reviews-lp .swiper-button-next {
+    display: none;
+  }
 }
 
 .reviews-lp .swiper-pagination {
@@ -717,7 +732,7 @@ html {
 
 @media (max-width: 767px) {
 
-  .reviews-lp .swiper{
+  .reviews-lp .swiper {
     padding-left: 16px;
   }
 
