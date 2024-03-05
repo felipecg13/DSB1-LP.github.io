@@ -578,10 +578,12 @@ html {
   }
 }
 
-.reviews-lp .content-info {
-  max-width: 1440px;
-  padding-left: 7%;
-  padding-right: 7%;
+@media (min-width: 1024px) {
+  .reviews-lp .content-info {
+    max-width: 1440px;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
 }
 
 .reviews-lp .content-info h3 {
@@ -698,6 +700,7 @@ html {
 }
 
 @media screen and (max-width: 1024px) {
+
   .reviews-lp .swiper-button-prev,
   .reviews-lp .swiper-button-next {
     display: none;
