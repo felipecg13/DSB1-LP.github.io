@@ -722,14 +722,17 @@ html {
 }
 
 .reviews-lp .content-reviews .item {
+  min-height: 294px;
+}
+
+
+.reviews-lp .content-reviews .item-inner {
+  min-height: 293px;
   border-radius: 4px;
   border: 1px solid #3b3b3b;
   background: #1e1e1e;
-  min-height: 293px;
-}
-
-.reviews-lp .content-reviews .item-inner {
   padding: 24px;
+  box-sizing: border-box;
 }
 
 
